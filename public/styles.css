@@ -1,0 +1,158 @@
+*{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ImgContainer{
+    width: auto;
+    display: inline;
+    position: absolute;
+    left: 10%;
+    margin-top: 7%;
+}
+
+.MainImage{
+    height: 20%;
+    width: 30%;
+}
+
+.RestComp{
+    display: inline;
+    position: absolute;
+    left: 45%;
+    margin-top: 4.5%;
+}
+
+.colorfig{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.New{
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:absolute;
+  
+}
+
+.Descp{
+    margin-top: 2px;
+}
+
+.Price{
+    font-size: 1.2rem;
+}
+
+.AboutSection{
+    width: 50%;
+}
+
+.AboutP{
+    line-height: 1.4;
+}
+
+.ColorsComp{
+    position: relative;
+}
+
+.sizebtn{
+    background-color: white; 
+    border: 0.5px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sizebtn:hover{
+    border: 1px solid black;
+}
+
+.Sizecomp{
+    margin-top: 20px;
+}
+
+.Addcomp{
+    margin-top: 20px;
+}
+
+.Addbtn{
+    background-color: black; 
+    border: 3px solid black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 150px;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Addbtn:hover{
+    background-color: gray; 
+    border: 3px solid gray;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 150px;
+    margin-right: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Stylep{
+    font-weight: 900;
+}
+
+.Sizep{
+    font-weight: 900;
+}
+
+.colorfig:hover{
+    border: 1px solid black;
+}
+
+@media(max-width:1100px){
+    *{
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ImgContainer{
+        width: auto;
+        display: block;
+        position: absolute;
+        left: 10%;
+        margin-top: 7%;
+    }
+    
+    .MainImage{
+        height: 100%;
+        width: 30%;
+    }
+    
+    .RestComp{
+        display: block;
+        position: absolute;
+        left: 45%;
+        margin-top: 4.5%;
+        position: relative;
+    }
+    
+   
+    
+}
